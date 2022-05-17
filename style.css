@@ -1,0 +1,531 @@
+body {
+  background-color: rgb(247, 247, 247);
+}  
+   
+/* (MENU) LOGO | CERTIFICADOS | CURRÍCULO */
+
+
+.container0 { 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+  width: 100%;
+  height: 500px;
+} 
+
+
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;  
+  font-family: 'Bebas Neue', cursive; 
+  font-weight: 300;
+}   
+
+/* Ajustes na logo Vitor */
+.logo-oficialvitor{
+  width: 20%;
+}
+   
+
+.vitoroficial {
+  width: 40%;
+}
+   
+/* Fim dos ajustes */   
+   
+
+.items {
+  display:flex; 
+  align-items: center;
+} 
+  
+    
+  
+
+
+.item-margin {
+  margin: 10px;
+  font-size: 20px; 
+}  
+  
+  
+.link-items {
+  text-decoration: none;
+  text-decoration-color: rgb(247, 247, 247);  
+  color: #3f2b96; 
+  
+}  
+
+.link-items:hover {  
+  color: #1d1446;
+  transition: 1000ms;
+  text-decoration: underline;
+  text-decoration-color: #3f2b96;
+  text-underline-offset: 20px;
+}
+  
+  
+/* -----FIM DA SEÇÃO MENU----- */
+  
+  
+
+
+
+   
+  
+
+
+
+ 
+
+
+
+
+
+
+
+/* TEXTO INICIAL | FOTO PERFIL | DESCRIÇÃO  */
+
+
+  
+  
+
+.intro {
+  text-align: center;
+  height: 100px;
+  color: rgb(242, 242, 242); 
+  font-size: 50px; 
+  margin-top: 20px;  
+  
+} 
+   
+  
+.titulo-principal {
+  font-size: 60px;
+  color: rgb(10, 0, 36); 
+  font-family: 'Bebas Neue', cursive;
+}  
+
+.subtitulo-principal {
+  font-size: 30px; 
+  color: rgb(51, 51, 51); 
+  font-family: 'Dosis', sans-serif;
+} 
+
+.foto-perfil {
+  width: 60%;
+  display: flex;
+  margin: 200px;
+  justify-content: center; 
+}
+  
+.vitor-perfil {  
+  width: 20%;   
+}  
+  
+
+  
+/* -------------FIM--------- */ 
+  
+  
+    
+/* RESUMO SOBRE VITOR */
+
+.container1 {
+  display: flex; 
+  max-width: 100%; 
+  background-color: #3f2b96;
+  justify-content: center;  
+  align-items: center;
+  height: 500px; 
+  
+} 
+
+.sobre {
+  height: 200px; 
+  width: 50%;
+}
+   
+
+.titulo-sobre {
+  color: white;
+  font-size: 40px; 
+  margin-bottom: 20px; 
+  text-align: center; 
+  font-family: 'Bebas Neue', cursive;
+} 
+
+.texto-sobre {
+  font-size: 20px;
+  color: white;
+  text-align: center; 
+  font-family: 'Dosis', sans-serif;
+} 
+
+/*---------------- FIM ----------------- */
+
+
+
+/* CONHECIMETOS (DESENVOLVEDOR FRONT-END */
+
+
+.container2 {
+  display: flex; 
+  max-width: 100%; 
+  background-color: #f5f5f5; 
+  flex-direction: column;
+  height: 500px;
+  
+} 
+
+/* ALINHANDO ICONE PROGRAMAÇÃO */
+.box-icone-programacao {
+  margin-top: 20px; 
+  display: flex; 
+  justify-content: center;
+} 
+
+/* -------------------------- */ 
+
+/* BOX QUE ENGLOBA OS TEXTOS ABAIXO DO ICONE */
+
+.icon-programacao {
+  margin-top: 20px; 
+  margin-bottom: 20px;
+  width: 5%;
+} 
+
+.titulos {
+  font-size: 40px;
+  font-family: 'Bebas Neue', cursive; 
+  color: rgb(10, 0, 36);
+}  
+
+.box-info {
+  display: flex; 
+  justify-content: center;
+}
+
+
+.box-info-texto {
+  display: flex; 
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: flex-start; 
+  width: 50%; 
+  border: 1px solid #d0d0d0; 
+  border-radius: 5px;
+  
+} 
+  
+   
+
+.titulos { 
+  
+  font-size: 28px;
+  text-align: center;
+  margin-top: 10px;
+  font-family: 'Bebas Neue', cursive; 
+} 
+
+.info-paragrafo { 
+  font-size: 22px;
+  margin: 15px;
+  text-align: center;  
+  font-family: 'Dosis', sans-serif;
+}   
+  
+
+/* --------FIM------------- */ 
+
+
+/* BOX MEUS TRABALHOS */
+
+.container3 {
+  display: flex; 
+  max-width: 100%; 
+  background-color: #f5f5f5; 
+  flex-direction: column; 
+  align-items: center;
+  height: 500px;
+    
+} 
+
+.trabalho-paragrafo { 
+  font-size: 22px;
+  margin: 15px;
+  text-align: left; 
+  font-family: 'Dosis', sans-serif;
+} 
+
+  
+  
+
+.titulo-trabalho { 
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color: black;
+  
+ 
+} 
+  
+.brabos-box {  
+  flex-direction: column;
+  display: flex;  
+  justify-content: center; 
+  align-items: center;
+  margin: 30px;
+  width: 20%; 
+}
+  
+.fotobrabos { 
+  width: 100%; 
+  border-radius: 5px; 
+}  
+  
+.botao-visit  { 
+  padding: 10px;
+  width: 100%;
+  background-color: #3f2b96;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+  color: white; 
+  border: 1px solid #3f2b96; 
+  border-radius: 5px;
+} 
+
+.botao-visit:hover {
+  background-color: white; 
+  color:#3f2b96 ; 
+  cursor: pointer;
+}
+  
+/* ----------FIM----------------- */
+  
+/* RODAPÉ */
+
+.container4 { 
+  margin-top: 100px;
+  width: 100%;
+  display: flex;  
+  flex-direction: column;
+  justify-content: space-around; 
+  align-items: center;
+  background-color: #3f2b96;
+  height: 300px;
+}  
+
+.contato {  
+  margin-left: 9px;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  
+} 
+
+.texto-contato {
+  margin-bottom: 20px;
+  font-size: 35px; 
+  font-family: 'Bebas Neue', cursive;
+  color: rgb(233, 233, 233);
+}
+  
+
+.box-icons {
+  margin-top: 20px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  width: 50%; 
+}
+  
+.icone1 {
+  width: 75%;
+}
+   
+  
+.copyright {
+  display: flex; 
+  margin-top: 20px;
+  justify-content: center;
+} 
+
+.nocopy {
+  color: white;
+} 
+
+/* ------ FIM ------- */ 
+  
+/* AJUSTE PARA MOBILE */
+
+@media screen and (max-width:480px) {
+  
+  /* cabeçalho */
+  .menu { 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  } 
+   
+  .logo-oficialvitor {
+    display: flex;
+    justify-content: center; 
+    width: 50%;
+  } 
+
+  .items { 
+    width: 100%;
+  }
+    
+    
+    
+  
+  .item-margin {
+    margin:  20px auto; 
+    
+  }   
+
+
+ 
+  /* -------- FIM --------- */ 
+
+  /* AJUSTE FOTO PERFIL */ 
+
+  br {
+    display: none;
+  }
+  
+  .intro { 
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;  
+    justify-content: space-evenly; 
+    align-items: center; 
+    height: 1px;
+
+  } 
+
+  .titulo-principal{
+    font-size:40px
+  }
+  
+  .foto-perfil { 
+    display: flex; 
+    width: 60%;
+  } 
+    
+    
+
+  .vitor-perfil {
+    width: 80%;
+  }
+
+  /* --------- FIM -----------  */
+
+  /* RESUMO SOBRE MIM */
+
+  .container1 {
+    height: 1000px;
+  } 
+
+  .sobre {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    width: 50%; 
+  }  
+
+  /* ------- FIM -------------- */
+
+
+  /* icone programação */
+  .icon-programacao {
+    width: 10%;
+  } 
+/* ---- FIM ------------- */
+
+  .box-info-texto {
+    width: 80%;
+  }
+
+
+
+
+.container3 { 
+  margin-top: 100px;
+} 
+
+.brabos-box {
+  width: 50%;
+}
+    
+    
+
+
+
+
+}
+
+  
+
+
+
+
+
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+ 
+  
+
+
+  
+  
+  
+
+  
+  
+
+  
+  
+  
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+  
+
+
+  
+
+
+
+
